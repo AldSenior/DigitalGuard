@@ -1,0 +1,16 @@
+.Header{
+    width: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+.Header p{
+    margin-left: 50px;
+    font-size: 28px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+a, u {
+    text-decoration: none;
+  }

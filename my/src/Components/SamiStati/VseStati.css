@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color: #161616;
+    align-items: center;
+}
+.h1{
+    width: 100%;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.h1,.p{
+    color: white;
+    
+}
+.p{
+    margin-left: 5vh;
+    text-align: left;
+    width:50vw;
+    margin-left: 20vw;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}

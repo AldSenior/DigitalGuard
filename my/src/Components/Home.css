@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+.Screen{
+    background-color: #161616;
+    width:100vh;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+.noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: white;
+}
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+}
+  
+.marg{
+    width: 50%;
+    margin-left: 15%;
+}
+  
+strong{
+    font-size: 40px;
+}
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50px;
+}
+
+  
+.textt{
+    width: 40%;
+    height: 100%;
+    font-size: 36px;
+    
+    margin-left: 20%;
+}
+.frame-top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+  
+}
+.image1 {
+    top: 275px;
+    right: 200px;
+    width: 30vw;
+    height: 45vh;
+    border-radius: 2px;
+    background-position: center center;
+    background-image: url(./imgs/Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 25%;
+}
+.frame-center{
+    width: 100%;
+    height: 60vh;
+    
+    display: flex;
+}
+.cardos {
+
+    width: 100%;
+    height: 90vh;
+    background-color: #2c2c2c;
+    
+}
+.image2 {
+    width: 512px;
+    height: 512px;
+    border-radius: 2px;
+    background-image: url(./imgs/Image2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+  
+  
+.zag2{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-left: 50%;
+
+}
+.textt2{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: "Montserrat, sans-serif";
+    width: 620px;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: 100px;
+
+}
+  
+.btn1{
+    cursor: pointer;
+    width: 284px;
+    height: 60px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #904e4b;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 26px;
+    outline: none;
+    position: absolute;
+    margin-left: 50%;
+}
+
+a:link, a:visited { 
+    color:rgb(255, 255, 255); 
+}
